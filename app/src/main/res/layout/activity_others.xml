@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Others">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Other Schemes"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:columnCount="1"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="14dp"
+            >
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/agric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Kalyana Lakshmi Scheme"
+                        android:textAlignment="center"
+                        android:textColor="@color/green"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To provide financial assistance to the newly wed bride who belongs to SC, ST and minority families. For SC Rs.2,00,000/-, ST Rs.2,00,000/-, For BC/EBC:Urban- Rs.2,00,000/-, Rural- Rs.1,50,000/- will be given under this scheme."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eligibility:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The applicant must be a resident of Telangana state, A Bride must belong to below the poverty line category, The bride must be of 18 years of age, The bride must belong to minority groups."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Documents Required:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caste Certificate, Land Pass Book, Bank Account number, Aadhar Card, Mobile Number"
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"
+                        android:onClick="goToIfds"
+                        android:background="@drawable/button_apply"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Top Class Education for ST Students Scheme"
+                        android:textAlignment="center"
+                        android:textColor="@color/green"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To encourage meritorious ST students for pursing studies at Degree and Post Graduate level in any of the Institutes identified by the Ministry of Tribal Affairs for the purpose. It supports meritorious ST students who gain admission in 213 identified quality educational institutions. Scholarship once awarded will continue till completion of the course subject to satisfactory performance."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eligibility:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The total family income of the student from all sources should not exceed Rs. 2.00 lakh per annum. Only those Scheduled Tribe students who have secured admission in notified Institutions will be eligible for the scholarship. If the number of the ST students admitted in a particular Institution exceeds the number of awards allocated to that Institutions than the scholarship will be restricted to that number of students who occupied top slots in the inter-se merit list."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefits:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full amount of tuition fee and other non-refundable dues in respect of Government/Government-funded institutions are paid. In case of students studying in private sector institutions a ceiling of Rs. 2.00 lakh per annum per student will apply normally. In case of students in private sector flying clubs for Commercial Pilot Training the ceiling is Rs. 3.72 lakh per annum per student. Living expenses are paid as per actual, subject to maximum ceiling of Rs. 2200/- per month per student. Expenditure on Books and stationery is paid @ Rs. 3000/- per annum per student. Cost of a latest computer along with accessories limited to Rs. 45,000/- as one time assistance during the entire course is paid to the student."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Documents Required:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caste Certificate, Bank Account number, Aadhar Card, Mobile Number, Income Certificate, Proof of admission, Scorecard of entrance exam qualified (if applicable), Fee structure of the program"
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"
+                        android:onClick="goToAasara"
+                        android:background="@drawable/button_apply"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Upgradation of Merit of ST Students Scheme"
+                        android:textAlignment="center"
+                        android:textColor="@color/green"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To upgrade the merit of ST students by providing them remedial and special coaching in classes IX to XII. While remedial coaching aims at removing deficiencies in various subjects, special coaching is provided with a view to prepare the students for competitive examinations for seeking entry into professional courses like Engineering and Medical disciplines."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eligibility:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The applicant must be a resident of Telangana state, A Bride must belong to below the poverty line category, The bride must be of 18 years of age, The bride must belong to minority groups."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Documents Required:"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caste Certificate, Land Pass Book, Bank Account number, Aadhar Card, Mobile Number"
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"
+                        android:onClick="goToIfds"
+                        android:background="@drawable/button_apply"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

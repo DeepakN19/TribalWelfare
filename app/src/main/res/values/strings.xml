@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tribal Welfare</string>
+    <string name="Login">Login</string>
+    <string name="name">Full Name</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="reg">Registration</string>
+    <string name="golog">Already registered? Login Here.</string>
+    <string name="reg1">Register</string>
+    <string name="schemes">Schemes</string>
+    <string name="Agri">Agriculture</string>
+    <string name="basic">Basic Services</string>
+    <string name="edu">Education</string>
+    <string name="ins">Insurance</string>
+    <string name="live">Livelihood and Employment</string>
+    <string name="other">Others</string>
+    <string name="house">Housing</string>
+    <string name="health">Health and Nutrition</string>
+    <string name="ss">Social Security</string>
+    <string name="sd">Skill Development</string>
+    <string name="women">Women and Child Development</string>
+    <string name="help">Helpline Numbers</string>
+    <string name="acc">Account</string>
+    <string name="regcomp">Register Complaint</string>
+    <string name="send">Send</string>
+    <string name="sub">Subject</string>
+    <string name="mes">Write to Us...</string>
+    <string name="query">Send Your Query</string>
+    <string name="accsub">View Account Details</string>
+    <string name="log">Sign Out</string>
+    <string name="schsub">View Tribal Schemes</string>
+    <string name="accoun">Account Details</string>
+    <string-array name="lang">
+        <item>English</item>
+        <item>Telugu</item>
+    </string-array>
+</resources>

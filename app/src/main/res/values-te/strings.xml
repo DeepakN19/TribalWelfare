@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tribal Welfare</string>
+    <string name="Login">ప్రవేశించండి</string>
+    <string name="name">పూర్తి పేరు</string>
+    <string name="pass">పాస్వర్డ్</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="mobile">మొబైల్ సంఖ్య</string>
+    <string name="reg">నమోదు</string>
+    <string name="golog">ఇక్కడ లాగిన్ అవ్వండి</string>
+    <string name="reg1">నమోదు చేయండి</string>
+    <string name="schemes">పథకాలు</string>
+    <string name="Agri">వ్యవసాయం</string>
+    <string name="basic">ప్రాథమిక సేవలు</string>
+    <string name="edu">విద్య</string>
+    <string name="ins">భీమా</string>
+    <string name="live">జీవనోపాధి మరియు ఉపాధి</string>
+    <string name="other">ఇతరములు</string>
+    <string name="house">గృహ</string>
+    <string name="health">ఆరోగ్యం మరియు పోషణ</string>
+    <string name="ss">సామాజిక భద్రత</string>
+    <string name="sd">నైపుణ్య అభివృద్ధి</string>
+    <string name="women">మహిళలు మరియు పిల్లల అభివృద్ధి</string>
+    <string name="help">హెల్ప్‌లైన్ నంబర్లు</string>
+    <string name="acc">ఖాతా</string>
+    <string name="regcomp">ఫిర్యాదు నమోదు</string>
+    <string name="send">పంపండి</string>
+    <string name="sub">విషయం</string>
+    <string name="mes">మాకు వ్రాయండి ...</string>
+    <string name="query">మీ ప్రశ్న పంపండి</string>
+    <string name="accsub">ఖాతా వివరాలను చూడండి</string>
+    <string name="log">సైన్ అవుట్ చేయండి</string>
+    <string name="schsub">గిరిజన పథకాలను చూడండి</string>
+    <string name="accoun">ఖాతా వివరాలు</string>
+</resources>
